@@ -6,7 +6,7 @@ https://github.com/julesmons/recline
 
 ```
 docker build -t recline-builder .
-docker run --rm -v $(pwd):/output recline-builder cp /app/recline-*.vsix /output/
+docker run --rm -v $(pwd):/output recline-builder
 ```
 
 ## License
